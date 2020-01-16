@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-family: "Solway", serif;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 60px;
+  font-weight: 200;
+}
+span:hover {
+    border-bottom: 1.6px solid #d82c2e;
+  
+}
+span {
+    padding-bottom: 10px;
+   
+}
+.wrapper {
+
+  text-align: center;
+  font-size: 250px;
+  padding-bottom: 20px;
+}
+
+button {
+  border: 1.6px solid #d82c2e;
+  background: white;
+  border-radius: 50px;
+  padding: 20px 100px;
+  text-align: center;
+  font-family: "Solway", serif;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+button:hover {
+  border: 1.6px solid white;
+  background: #d82c2e;
+  color: white;
+  transition: 1s ease;
+  font-size: 55px;
+  animation: scale 0.8s ease;
+}
+@keyframes scale {
+  0% {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+  }
+  40% {
+    transform: scaleX(1.1);
+    transform: scaleY(1.15);
+  }
+  50% {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleX(1.1);
+    transform: scaleY(1.15);
+  }
+  80% {
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+}
